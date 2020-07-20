@@ -15,11 +15,11 @@ def leaved(slotNumber):
 
 
 def status(cars):
-    print("Slot No.     Registration No     Colour")
+    print("Slot No.    Registration No    Colour")
     for i in range(0, len(cars)):
         if(cars[i] != None):
-            print(str(i+1) + "            "+cars[i].regNumber +
-                  "       "+cars[i].color)
+            print(str(i+1) + "           "+cars[i].regNumber +
+                  "      "+cars[i].color)
 
 
 def findFail():
